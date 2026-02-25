@@ -1007,3 +1007,439 @@ section {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9rem;
 }
+
+/* =================================================================
+   ENHANCED MOBILE RESPONSIVE DESIGN
+   ================================================================= */
+
+/* Mobile Navigation Improvements */
+@media (max-width: 968px) {
+    .navbar {
+        padding: 0.5rem 0;
+    }
+
+    .nav-content {
+        padding: 0.75rem 0;
+    }
+
+    .logo-container {
+        margin-bottom: 0.5rem;
+    }
+
+    .logo {
+        height: 80px !important;
+        max-width: 280px !important;
+    }
+
+    .hamburger {
+        z-index: 1001;
+    }
+
+    .nav-links {
+        padding: 1.5rem 0;
+        gap: 0.25rem;
+        z-index: 1000;
+    }
+
+    .nav-link {
+        padding: 0.75rem 1.5rem;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .nav-link.signup-btn {
+        margin: 0.5rem 1.5rem;
+        width: calc(100% - 3rem);
+    }
+}
+
+/* Mobile Typography & Layout */
+@media (max-width: 768px) {
+    /* Global Mobile Adjustments */
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    section {
+        padding: 3.5rem 0 !important;
+    }
+
+    /* Hero Section Mobile */
+    .hero {
+        margin-top: 110px !important;
+        min-height: auto !important;
+        padding: 3rem 0 !important;
+    }
+
+    .hero::before {
+        width: 100% !important;
+        height: 50% !important;
+        opacity: 0.04 !important;
+    }
+
+    .hero-content {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .hero-title {
+        font-size: 2rem !important;
+        letter-spacing: 1px !important;
+        margin-bottom: 1rem !important;
+        line-height: 1.2 !important;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem !important;
+        letter-spacing: 1.5px !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .hero-description {
+        font-size: 0.95rem !important;
+        line-height: 1.6 !important;
+        margin-bottom: 2rem !important;
+        padding: 0 0.5rem !important;
+    }
+
+    .hero-buttons {
+        flex-direction: column !important;
+        gap: 0.75rem !important;
+        padding: 0 1rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .btn {
+        padding: 0.9rem 1.75rem !important;
+        font-size: 0.9rem !important;
+        width: 100% !important;
+        max-width: 280px !important;
+    }
+
+    /* Countdown Mobile */
+    .countdown-container {
+        margin-top: 2rem !important;
+    }
+
+    .countdown-boxes {
+        gap: 0.5rem !important;
+        padding: 0 0.5rem !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+
+    .countdown-box {
+        min-width: 70px !important;
+        padding: 0.65rem 0.85rem !important;
+        flex: 1 1 calc(25% - 0.5rem) !important;
+        max-width: 90px !important;
+    }
+
+    .countdown-number {
+        font-size: 1.6rem !important;
+    }
+
+    .countdown-label {
+        font-size: 0.7rem !important;
+        margin-top: 0.25rem !important;
+    }
+
+    .countdown-title {
+        font-size: 0.95rem !important;
+        margin-top: 1.25rem !important;
+        letter-spacing: 1.5px !important;
+    }
+
+    /* Section Headers Mobile */
+    .section-header {
+        margin-bottom: 2.5rem !important;
+    }
+
+    .section-title {
+        font-size: 1.8rem !important;
+        letter-spacing: 1.5px !important;
+        padding: 0 1rem !important;
+        line-height: 1.3 !important;
+    }
+
+    .title-underline {
+        width: 80px !important;
+        height: 4px !important;
+    }
+
+    .section-subtitle {
+        font-size: 0.95rem !important;
+        padding: 0 1rem !important;
+        line-height: 1.6 !important;
+        margin-top: 1rem !important;
+    }
+
+    /* About Section Mobile */
+    .about-content {
+        gap: 2rem !important;
+    }
+
+    .about-text h3 {
+        font-size: 1.4rem !important;
+        margin-bottom: 1.25rem !important;
+        line-height: 1.3 !important;
+    }
+
+    .about-text p {
+        font-size: 0.95rem !important;
+        margin-bottom: 1.25rem !important;
+        line-height: 1.7 !important;
+    }
+
+    .features-list {
+        margin-top: 1.5rem !important;
+    }
+
+    .features-list li {
+        font-size: 0.9rem !important;
+        margin-bottom: 0.85rem !important;
+        padding-left: 0 !important;
+    }
+
+    .features-list i {
+        font-size: 1rem !important;
+        min-width: 24px !important;
+    }
+
+    .coach-highlight {
+        padding: 1.75rem 1.5rem !important;
+    }
+
+    .coach-highlight h3 {
+        font-size: 1.4rem !important;
+        margin-bottom: 1.25rem !important;
+    }
+
+    .coach-highlight p {
+        font-size: 0.95rem !important;
+        line-height: 1.6 !important;
+    }
+
+    .quality-items {
+        margin: 1.5rem 0 !important;
+    }
+
+    .quality-item {
+        font-size: 0.9rem !important;
+        margin-bottom: 0.85rem !important;
+    }
+
+    /* Events Section Mobile */
+    .events-grid {
+        gap: 1.5rem !important;
+    }
+
+    .event-card {
+        padding: 1.75rem 1.5rem !important;
+    }
+
+    .event-icon {
+        font-size: 2.75rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .event-badge {
+        font-size: 0.7rem !important;
+        padding: 0.3rem 0.85rem !important;
+        margin-bottom: 0.85rem !important;
+    }
+
+    .event-title {
+        font-size: 1.3rem !important;
+        margin-bottom: 0.85rem !important;
+        line-height: 1.3 !important;
+    }
+
+    .event-rules {
+        font-size: 0.9rem !important;
+        line-height: 1.6 !important;
+        margin-bottom: 1.25rem !important;
+    }
+
+    .score-label {
+        font-size: 0.7rem !important;
+    }
+
+    .score-badge {
+        font-size: 0.8rem !important;
+        padding: 0.25rem 0.65rem !important;
+    }
+
+    /* Event Details Mobile */
+    .info-grid {
+        gap: 1.25rem !important;
+    }
+
+    .info-card {
+        padding: 1.5rem 1.25rem !important;
+    }
+
+    .info-icon {
+        font-size: 2.5rem !important;
+        margin-bottom: 0.85rem !important;
+    }
+
+    .info-card h3 {
+        font-size: 1.15rem !important;
+        margin-bottom: 0.85rem !important;
+    }
+
+    .info-card p {
+        font-size: 0.9rem !important;
+        line-height: 1.5 !important;
+    }
+
+    .info-subtext {
+        font-size: 0.85rem !important;
+    }
+
+    .venue-banner {
+        padding: 2rem 1.5rem !important;
+        margin-top: 2rem !important;
+    }
+
+    .venue-banner h3 {
+        font-size: 1.4rem !important;
+        margin-bottom: 1rem !important;
+        line-height: 1.3 !important;
+    }
+
+    .venue-banner p {
+        font-size: 0.95rem !important;
+        line-height: 1.6 !important;
+    }
+
+    /* Sign-Up Form Mobile */
+    .signup-section {
+        padding: 3.5rem 0 !important;
+    }
+
+    .form-container {
+        padding: 1.75rem 1.25rem !important;
+        margin: 0 0.75rem !important;
+    }
+
+    .registration-form {
+        gap: 1.125rem !important;
+    }
+
+    .form-group label,
+    .form-group-full label {
+        font-size: 0.9rem !important;
+        margin-bottom: 0.4rem !important;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group-full input,
+    .form-group-full select,
+    .form-group-full textarea {
+        font-size: 0.95rem !important;
+        padding: 0.65rem 0.85rem !important;
+    }
+
+    .checkbox-group {
+        gap: 0.5rem !important;
+    }
+
+    .checkbox-pill {
+        font-size: 0.8rem !important;
+        padding: 0.4rem 0.95rem !important;
+    }
+
+    .btn-submit {
+        padding: 0.95rem !important;
+        font-size: 0.95rem !important;
+        margin-top: 0.5rem !important;
+    }
+
+    .success-message {
+        padding: 1.25rem !important;
+        font-size: 1rem !important;
+        margin-top: 1.5rem !important;
+    }
+
+    /* Contact Section Mobile */
+    .contact-section {
+        padding: 2.5rem 0 !important;
+    }
+
+    .contact-section h2 {
+        font-size: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .contact-info p {
+        font-size: 0.95rem !important;
+        margin-bottom: 0.85rem !important;
+        flex-direction: column !important;
+        gap: 0.35rem !important;
+    }
+
+    .btn-instagram {
+        padding: 0.7rem 1.5rem !important;
+        font-size: 0.9rem !important;
+    }
+
+    .contact-note {
+        font-size: 0.85rem !important;
+        padding: 0 1rem !important;
+        line-height: 1.6 !important;
+    }
+
+    /* Footer Mobile */
+    .footer {
+        padding: 1.25rem 0 !important;
+    }
+
+    .footer p {
+        font-size: 0.85rem !important;
+        padding: 0 1rem !important;
+    }
+}
+
+/* Extra Small Mobile Devices */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.75rem !important;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem !important;
+    }
+
+    .section-title {
+        font-size: 1.6rem !important;
+    }
+
+    .countdown-box {
+        min-width: 65px !important;
+        padding: 0.5rem 0.65rem !important;
+    }
+
+    .countdown-number {
+        font-size: 1.4rem !important;
+    }
+
+    .countdown-label {
+        font-size: 0.65rem !important;
+    }
+
+    .event-card {
+        padding: 1.5rem 1.25rem !important;
+    }
+
+    .form-container {
+        margin: 0 0.5rem !important;
+        padding: 1.5rem 1rem !important;
+    }
+}
